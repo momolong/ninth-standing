@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/global.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="css/font.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/live-nav.css"/>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jCanvaScript.1.5.18.js"></script>
+    <script src="js/cheat.js"></script>
+    <script src="js/live-nav.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="head-bac"></div>
+    <div class="head">
+        <ul class="head-nav clr">
+            <li>主站</li>
+            <li>游戏</li>
+            <li>奇闻</li>
+            <li>直播</li>
+            <li>黑科技</li>
+            <li>周边</li>
+        </ul>
+        <ul class="head-login clr">
+            <li>登录</li>
+            <li>注册</li>
+            <li>设置</li>
+        </ul>
+        <ul class="head-name clr">
+            <li id="cheat-aaa">备忘录</li>
+            <li>坏人</li>
+            <li>&nbsp;</li>
+        </ul>
+        <div class="cheat">
+            <textarea id="cheat-text" cols="28" rows="10" maxlength="35" placeholder="最多可输入35个汉字~~~"></textarea>
+            <p><input id="cheat-but" type="button" value="备注"/><input type="button" value="清除" id="cheat-cle"/></p>
+            <ul id="cheat-show" class="cheat-ul">
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+
+<canvas id="canvas_1"></canvas>
+
+<article class="clr" >
+    <div class="wel">
+        <i>&#xe607;</i>
+        <p>欢迎进入九秀直播</p>
+        <p>Welcome to the nine live show</p>
+    </div>
+
+    <div class="flip">
+        <ul class="clr">
+            <li class="flip-box">
+                <a href="">
+                    <div class="front">
+                        <div class="introduce">
+                            <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+                            <p>坏人 宝宝要枪毙你</p>
+                            <p>主播: 小一么么哒</p>
+                            <p>人气: <i>31,315</i>人在观看</p>
+                            <p>战斗力: <i>4.28万</i></p>
+                            <input type="button" value="进入"/>
+                            <input type="button" value="关注"/>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-box">
+                <a href="">
+                    <div class="front">
+                        <div class="introduce">
+                            <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+                            <p>坏人 宝宝要枪毙你</p>
+                            <p>主播: 小一么么哒</p>
+                            <p>人气: <i>31,315</i>人在观看</p>
+                            <p>战斗力: <i>4.28万</i></p>
+                            <input type="button" value="进入"/>
+                            <input type="button" value="关注"/>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-box">
+                <a href="">
+                    <div class="front">
+                        <div class="introduce">
+                            <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+                            <p>坏人 宝宝要枪毙你</p>
+                            <p>主播: 小一么么哒</p>
+                            <p>人气: <i>31,315</i>人在观看</p>
+                            <p>战斗力: <i>4.28万</i></p>
+                            <input type="button" value="进入"/>
+                            <input type="button" value="关注"/>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-box">
+                <a href="">
+                    <div class="front">
+                        <div class="introduce">
+                            <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+                            <p>坏人 宝宝要枪毙你</p>
+                            <p>主播: 小一么么哒</p>
+                            <p>人气: <i>31,315</i>人在观看</p>
+                            <p>战斗力: <i>4.28万</i></p>
+                            <input type="button" value="进入"/>
+                            <input type="button" value="关注"/>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-box" >
+                <a href="">
+                    <div class="front">
+                        <div class="introduce">
+                            <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+                            <p>坏人 宝宝要枪毙你</p>
+                            <p>主播: 小一么么哒</p>
+                            <p>人气: <i>31,315</i>人在观看</p>
+                            <p>战斗力: <i>4.28万</i></p>
+                            <input type="button" value="进入"/>
+                            <input type="button" value="关注"/>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="card">
+      <ul>
+
+          <li>
+              <video src="video/aaa.mp4" height="95" width="125" autoplay loop muted></video>
+              <p>13:30 黄金超级联赛秋季赛64进16（直播）</p>
+          </li>
+          <li>
+              <video src="video/aaa.mp4" height="95" width="125" autoplay loop muted></video>
+              <p>13:30 黄金超级联赛秋季赛64进16（直播）</p>
+          </li>
+          <li>
+              <video src="video/aaa.mp4" height="95" width="125" autoplay loop muted></video>
+              <p>13:30 黄金超级联赛秋季赛64进16（直播）</p>
+          </li>
+          <li>
+              <video src="video/aaa.mp4" height="95" width="125" autoplay loop muted></video>
+              <p>13:30 黄金超级联赛秋季赛64进16（直播）</p>
+          </li>
+          <li>
+              <video src="video/aaa.mp4" height="95" width="125" autoplay loop muted></video>
+              <p>13:30 黄金超级联赛秋季赛64进16（直播）</p>
+          </li>
+
+
+          <li>换一批</li>
+      </ul>
+
+    <div class="code">
+        <img src="img/cold.png" alt=""/>
+        <p>扫描下载APP</p>
+    </div>
+
+    </div>
+</article>
+</body>
+
+</html>

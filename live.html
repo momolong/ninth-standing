@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/global.css"  rel="stylesheet" >
+    <link href="css/font.css"  rel="stylesheet" >
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/live.css"/>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jCanvaScript.1.5.18.js"></script>
+    <script src="js/cheat.js"></script>
+    <script src="js/live.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="head-bac"></div>
+    <div class="head">
+        <ul class="head-nav clr">
+            <li>主站</li>
+            <li>游戏</li>
+            <li>奇闻</li>
+            <li>直播</li>
+            <li>黑科技</li>
+            <li>周边</li>
+        </ul>
+        <ul class="head-login clr">
+            <li>登录</li>
+            <li>注册</li>
+            <li>设置</li>
+        </ul>
+        <ul class="head-name clr">
+            <li id="cheat-aaa">备忘录</li>
+            <li>坏人</li>
+            <li>&nbsp;</li>
+        </ul>
+        <div class="cheat">
+            <textarea id="cheat-text" cols="28" rows="10" maxlength="35" placeholder="最多可输入35个汉字~~~"></textarea>
+            <p><input id="cheat-but" type="button" value="备注"/><input type="button" value="清除" id="cheat-cle"/></p>
+            <ul id="cheat-show" class="cheat-ul">
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+                <li class="clr"><i>asasaaaaaaaaaaaaaaaaaaaaa</i><input class="cheat-clear"  type="button" value="删除"/></li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+
+<canvas id="canvas_1"></canvas>
+
+<article class="clr">
+    <div class="left">
+        <ul>
+            <li>大厅</li>
+            <li>分类</li>
+            <li>关注</li>
+            <li>排行</li>
+            <li>偷窥</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>客服</li>
+        </ul>
+    </div>
+    <div class="introduce">
+        <p class="portrait"><img src="img/portrait.png" alt=""/></p>
+        <p>坏人 宝宝要枪毙你</p>
+        <p>主播: 小一么么哒</p>
+        <p>人气: <i>31,315</i>人在观看</p>
+        <p>战斗力: <i>4.28万</i></p>
+        <input type="button" value="关注"/>
+        <input type="button" value="举报"/>
+        <input type="button" value="分享"/>
+    </div>
+    <div class="video">
+        <video id="vd" src="video/aaa.mp4" width="600" autoplay loop >
+            您的浏览器版本过低，请更换Google Chrome浏览
+        </video>
+        <div class="control clr" >
+            <input type="button" value="暂停" id="btn"/>
+            <span><i>音量：</i><input type="range"/></span>
+            <input type="button" value="全屏" />
+            <input type="button" value="弹幕" />
+            <input type="button" value="举报" />
+        </div>
+    </div>
+    <div class="chat clr">
+        <div class="rank">
+            <div class="content">
+                <div class="tab-bar">
+                    <ul class="clr">
+                        <li class="fl on">周榜</li>
+                        <li class="fl">月榜</li>
+                    </ul>
+                </div>
+                <div class="tab-box">
+                    <div>
+                        <ul>
+                            <li><i>1.</i><span>狠狠的小酒窝</span></li>
+                            <li><i>2.</i><span>吃了熊的大白兔</span></li>
+                            <li><i>3.</i><span>凌儿德爱情</span></li>
+                        </ul>
+                    </div>
+                    <div style="display: none">
+                        <ul>
+                            <li><i>1.</i><span>若懿菇菇丶凯撒</span></li>
+                            <li><i>2.</i><span>Dawn丶殇情</span></li>
+                            <li><i>3.</i><span>跑骚丶路人</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dia">
+            <div class="dialogue"></div>
+        </div>
+        <textarea id="fasong" name="text" id="" cols="3" rows="20" maxlength="10" placeholder="说点什么吧？"></textarea>
+        <input id="sub" type="button" value="发送"/>
+    </div>
+    <div class="gift">
+        <ul class="clr">
+            <input type="button" value="任务"/>
+            <li><i>&#xe605;</i><span><p>香吻</p><p>战斗力：+1</p><p>经验：+1</p></span></li>
+            <li><i>&#xe601;</i><span><p>天使</p><p>战斗力：+10</p><p>经验：+10</p></span></li>
+            <li><i>&#xe602;</i><span><p>女神</p><p>战斗力：+100</p><p>经验：+100</p></span></li>
+            <li><i>&#xe603;</i><span><p>月亮</p><p>战斗力：+500</p><p>经验：+500</p></span></li>
+            <li><i>&#xe604;</i><span><p>太阳</p><p>战斗力：+1000</p><p>经验：+1000</p></span></li>
+        </ul>
+    </div>
+</article>
+</body>
+
+</html>

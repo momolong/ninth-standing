@@ -1,0 +1,59 @@
+html{height:100%}
+input{cursor: pointer;}
+body{position:relative;width:100%;height:100%;background: url("../img/101712weczwr3usm7gnagn.jpg") no-repeat;background-size:100% 100%; overflow-x:hidden;overflow-y:hidden;}
+canvas{width:100%;height: 100%;position: absolute;}
+article{width:1100px;height:500px;margin:60px -550px 0px; position: absolute;left:50%;right:50%;
+    z-index: 3;}
+article>div{float:left;margin-left: 5px;}
+.left ul{width:64px;height:410px;border:3px solid #fff;border-radius: 10px;text-align: center;line-height: 20px;color:#fff;}
+.left ul>li{cursor: pointer;margin:3px 1px 0px 1px;border:3px solid #fff;border-radius: 10px;height:20px;  }
+
+
+.introduce{width:150px;height:410px;border:3px solid #fff;border-radius: 10px;text-align: center;line-height: 20px;color:#fff;}
+.portrait{height: 200px;}
+.introduce p{text-align: center;}
+.introduce p img{width:100px;height:150px;border:3px solid #fff;border-radius: 10px;margin:20px auto;}
+.introduce p i{color:red;}
+.introduce input{width:100px;background: none;border:3px solid #fff;border-radius: 10px;color:#fff;height:26px;margin-top: 10px;    }
+
+
+.video{position:relative;z-index:9;overflow:hidden;width:600px;height:410px;border:3px solid #fff;border-radius: 10px;text-align: center;line-height: 20px;color:#fff;}
+.video video{border-radius: 10px;}
+.video .control{padding:0 0 10px 10px;width:100%;height:35px;background: rgba(255,255,255,.3);-moz-border-radius-bottomleft:10px;position: absolute;bottom: 0; }
+.video .control input[type=button]{float:right;box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset;width:60px;background: none;border:3px solid #fff;border-radius: 10px;color:#fff;height:26px;margin: 10px 10px 0 0; }
+.video .control input[type=button]:nth-child(1){float:left;}
+.video .control span{float:right;width:130px;background: none;border-radius: 10px;color:#fff;height:20px;margin: 10px 20px 0 0; box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset;border:3px solid #fff;}
+.video .control span i{font-style: normal;display: inline-block;width:40px;float:left;padding-left:3px; }
+.video .control input[type=range]{width:80px;background: none;   }
+
+.chat{width:240px;height:410px;border:3px solid #fff;border-radius: 10px;text-align: center;line-height: 20px;color:#fff;}
+.chat .rank{width:230px;margin:2px 0 0 2px;height:130px;border:3px solid #fff;border-radius: 10px;color:#fff;}
+.chat .rank .tab-bar ul{margin:0 auto;width:202px;margin-top: 10px;}
+.chat .rank .tab-bar li{display:inline-block; width:100px;height:20px;border-bottom:1px solid #fff;cursor: pointer;}
+.chat .rank .tab-bar li:nth-child(1){border-right:1px solid #fff}
+.chat .rank .tab-box li{height:30px;line-height: 30px;}
+.chat .rank .tab-box li i{display:inline-block;width:10px;}
+.chat .rank .tab-box li span{display:inline-block;width:130px;}
+
+.chat .dia{overflow:hidden;padding:10px;width:210px;margin:2px 0 0 2px;height:180px;border:3px solid #fff;border-radius: 10px;
+    color:#fff;text-align: left;position: relative;}
+.dialogue{width:210px;position:absolute;bottom: 0;padding-bottom: 20px;}
+.chat textarea[name='text']{width:170px;height:50px;background:none;border:3px solid #fff;border-radius: 10px;color:#fff;padding:5px 5px 0 5px;margin:1px 0 0 1px;float:left;}
+.chat input[type='button']{width:50px;height:60px;background:none;border:3px solid #fff;border-radius: 10px;display:block;float:left;margin:1px 0 0 1px;color:#fff;font-weight: bold;}
+
+.left>ul,.left li,.introduce,.introduce input[type=button],.video,.chat,.chat>div,.light{box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset}
+.nonono{visibility:hidden;}
+.on{box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset}
+.none{box-shadow:none;background: #fff;}
+
+.gift{width: 1088px;height:80px;margin-top:5px;border-radius:10px;box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset;border:3px solid #fff;}
+.gift input{float:left; color:#fff;font-size:18px;background:none;width: 76px;height:76px;border-radius:10px;box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset;border:3px solid #fff;margin:2px 2px 2px 2px; }
+.gift ul li{cursor: pointer; position:relative;width:70px;overflow:hidden;padding:10px 5px;float:right;height:50px;border-radius:10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9) inset;border:3px solid #fff;margin:2px 2px 2px 0; font-family:iconfont;}
+.gift ul li i{font-size: 50px;font-style:normal;color:#fff;text-shadow: 0 0 10px #fff ;padding-left:10px;line-height: 50px;}
+.gift ul li span{position:absolute;left:80px;top:10px;display: inline-block;width:80px;color:#fff;padding-left: 0px;}
+.gift ul li span p:nth-child(1){height:25px;font-size: 17px;font-weight: bold;line-height: 25px;}
+
+input[type=button]:hover,.left>ul>li:hover{box-shadow:none;}
+
+
